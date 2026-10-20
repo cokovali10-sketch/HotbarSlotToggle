@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "hotbarswap",
+  "version": "1.0.0",
+  "name": "Hotbar Slot Toggle (5/8)",
+  "description": "LeftAlt toggles the selected hotbar slot between slot 5 and slot 8. No items are moved.",
+  "authors": [
+    "local"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.local.hotbarswap.HotbarSwapClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
